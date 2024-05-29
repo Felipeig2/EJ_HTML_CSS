@@ -1,0 +1,25 @@
+body {
+    background-color: violet;
+    color: rgb(61, 49, 49);
+    text-align: left;
+
+}
+
+.ej2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ej3 {
+    background-color: aqua;
+    text-align: center;
+}
+
+.ej3:hover {
+    background-color: wheat
+}
+
+li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 10fr;
+}
