@@ -21,5 +21,67 @@ body {
 
 li {
     display: grid;
-    grid-template-columns: 1fr 1fr 10fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Form{
+    margin: 5% 35% 5% 35%;
+    border: solid 10px red;
+
+}
+.Tit{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.env{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.boton{
+    display: flex;
+    justify-content: center;
+
+}
+.arco div{
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+  
+}
+.rojo{
+
+    background-color: red;
+
+    
+}
+.nara{
+    background-color: orange;
+
+}
+.amar{
+    background-color: yellow;
+
+}
+.verd{
+    background-color: green;
+
+}
+.blue{
+    background-color: blue;
+
+}
+.cele{
+    background-color: cyan;
+
+}
+.viol{
+    background-color: blueviolet;
+
+    margin-bottom: 10px;
+}
+.nada{
+    background-color: violet;
+    color: violet;
 }
